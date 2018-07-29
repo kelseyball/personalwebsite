@@ -2,11 +2,11 @@
   time: Summer 2015
   company: Qualcomm Inc.
   description1: Built and integrated an internal testing tool to track optimized kernel parameters between builds.
-  # image: assets/img/microsoft.png
+  image: assets/img/microsoft.png
 
 - title: Software Development Intern
   time: Summer 2014
   company: Epic Systems
   description1: Prototyped a web-based media-sharing application for radiologists.
-  # image: assets/img/microsoft.png
+  image: assets/img/microsoft.png
 
