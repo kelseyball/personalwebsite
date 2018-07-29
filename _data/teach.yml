@@ -1,23 +1,23 @@
 - course: EE319K
-  # survey:
+  survey:
   professor: Dr. Ramesh Yerraballi
   semester: Spring 2014
   site: http://www.ece.utexas.edu/undergraduate/courses/319k
 
 - course: EE319K
-  # survey: 
+  survey: 
   professor: Dr. Mohit Tiwari
   semester: Spring 2016
   site: http://www.ece.utexas.edu/undergraduate/courses/319k
 
 - course: EE306
-  # survey: 
+  survey: 
   professor: Dr. Ramesh Yerraballi 
   semester: Fall 2016
   site: http://www.ece.utexas.edu/undergraduate/courses/306
 
 - course: Embedded Systems and Industry in India 
-  # survey: N/A 
+  survey: N/A 
   professor: Dr. Ramesh Yerraballi
   semester: Summer 2016
   site: https://github.com/UT-EmbeddedSystemsAndIndustry-2016
