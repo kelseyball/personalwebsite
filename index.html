@@ -21,8 +21,7 @@ layout: default
       <p>
       <ul>
           <li>
-            I studied at The University of Texas at Austin where I earned a B.S. in Electrical and Computer Engineering in May 2017. My focus was in computer architecture and embedded systems. I'm currently working as a Software Engineer on the Hyper-Scale Compute team in Microsoft Azure. Specifically, I'm on the core development team for <a href="https://docs.microsoft.com/en-us/azure/event-hubs/event-hubs-what-is-event-hubs">Azure Event Hubs</a>
-            and, I'm integrating it with Apache Spark and Databricks. 
+            I studied at The University of Texas at Austin where I earned a B.S. in Electrical and Computer Engineering in May 2017. My focus was in machine learning and natural language processing. I just completed a Fulbright grant in Hyderabad, India, working on core NLP problems for low-resource Indian languages.
           </li>
       </ul>
       </p>
@@ -80,7 +79,7 @@ layout: default
     Teaching:</h1>
     <div style="width:100%;height:5px;"></div>
     <div id="4" style="display:none;">
-    <ul><li>I have worked as a teaching assistant for <b>one graduate course</b> and <b>two undergraduate courses</b>. I've also received <b>two Teaching Awards</b> from the Cockrell School of Engineering.</li></ul>
+    <ul><li>I have worked as a teaching assistant for <b>two undergraduate courses</b> and <b>one study-abroad engineering course</b>. I've also received a <b> Teaching Award</b> from the Cockrell School of Engineering.</li></ul>
     <ul>
         <li>
         <table>
@@ -88,14 +87,14 @@ layout: default
             <th>Course</th>
             <th>Professor</th>
             <th>Semester</th>
-            <th>Survey</th>
+   <!--          <th>Survey</th> -->
         </tr>
         {% for teach in site.data.teach %}
         <tr>
             <td><a href="{{ teach.site }}" target="_blank">{{ teach.course }}</a></td>
             <td>{{ teach.professor}}</td>
             <td>{{ teach.semester }}</td>
-            <td>{{ teach.survey}}</td>
+            <!-- <td>{{ teach.survey}}</td> -->
         </tr>
         {% endfor %}
         </table>
