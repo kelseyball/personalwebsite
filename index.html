@@ -87,14 +87,14 @@ layout: default
             <th>Course</th>
             <th>Professor</th>
             <th>Semester</th>
-   <!--          <th>Survey</th> -->
+            <th>Survey</th>
         </tr>
         {% for teach in site.data.teach %}
         <tr>
             <td><a href="{{ teach.site }}" target="_blank">{{ teach.course }}</a></td>
             <td>{{ teach.professor}}</td>
             <td>{{ teach.semester }}</td>
-            <!-- <td>{{ teach.survey}}</td> -->
+            <td>{{ teach.survey}}</td>
         </tr>
         {% endfor %}
         </table>
