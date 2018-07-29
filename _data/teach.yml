@@ -1,18 +1,24 @@
-- course: EE312
-  survey: 4.9/5.0
-  professor: Dr. Craig Chase
-  semester: Fall 2014
-  site: http://www.ece.utexas.edu/undergraduate/courses/312
+- course: EE319K
+  survey:
+  professor: Dr. Ramesh Yerraballi
+  semester: Spring 2014
+  site: http://www.ece.utexas.edu/undergraduate/courses/319k
+
+- course: EE319K
+  survey: 
+  professor: Dr. Mohit Tiwari
+  semester: Spring 2016
+  site: http://www.ece.utexas.edu/undergraduate/courses/319k
 
 - course: EE306
-  survey: 4.9/5.0
-  professor: Dr. Yale Patt 
-  semester: Fall 2015
+  survey: 
+  professor: Dr. Ramesh Yerraballi 
+  semester: Fall 2016
   site: http://www.ece.utexas.edu/undergraduate/courses/306
 
-- course: EE380L
+- course: Embedded Systems and Industry in India 
   survey: N/A 
-  professor: Dr. Craig Chase
-  semester: Spring 2016
-  site: http://www.ece.utexas.edu/graduate/courses/380L
+  professor: Dr. Ramesh Yerraballi
+  semester: Summer 2016
+  site: https://github.com/UT-EmbeddedSystemsAndIndustry-2016
 
