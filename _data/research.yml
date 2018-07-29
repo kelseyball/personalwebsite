@@ -1,17 +1,12 @@
-- title: Research Assistant
-  time: Spring 2017
-  company: University of Texas at Austin
-  description1: Assisted graduate student in Dr. Chidambaram's group. Main contribution: implemented fractional cascading in fragmented log-structured merge trees to help reduce write amplification in key-value stores.
-  image: assets/img/ut.jpg
-
-- title: Editor of Undergraduate Engineering Research
-  time: Fall 2014 - Spring 2015
-  company: Undergraduate Research Journal (URJ)
-  description1: The URJ promotes, collects, and publishes undergraduate research at University of Texas. They partner with professors to ensure quality of work. The issue I worked on can be viewed <a href="http://texasurj.com/archives/2014.pdf" target="_blank"> here.</a>
-  image: assets/img/ut.jpg
+- title: U.S. Fulbright Scholar
+  time: Fall 2017 - Spring 2018
+  company: Hyderabad, India
+  description1: Submitted for publication (EMNLP 2018): Kelsey Ball, Dan Garrette. “Part-of-speech tagging for code-switched and transliterated text without explicit language identification.” 
+  # image: assets/img/ut.jpg
 
 - title: Research Assistant
-  time: Summer 2013 - Summer 2014
+  time: Fall 2014 - Fall 2015
   company: University of Texas at Austin
-  description1: Designed and constructed a solar-powered bright-field microscope for use in rural Cameroon. A more detailed description can be found <a href="/microscope" target="_blank">here.</a>
+  description1: Developed statistical models to analyze code-switching in bilingual speakers. #A more detailed description can be found <a href="/microscope" target="_blank">here.</a>
   image: assets/img/ut.png
+
