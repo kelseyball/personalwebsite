@@ -1,10 +1,10 @@
 - name: Texas 4000 for Cancer
-  description1: I co-led a team of 25 students, riding our bicycles over 4,000 miles from Austin, TX to Anchorage, AK. We raised over $800,000 for cancer research and support services -- the highest fundraising team in the organization's history.
-  description2: <a href="https://www.texas4000.org/" target="_blank">Learn</a> or <a href="https://www.youtube.com/watch?v=9fzK8ENPhpo" target="_blank">watch</a> more about the journey.
+  description1: I co-led a team of 25 students cycling over 4,000 miles from Austin, TX to Anchorage, AK. We raised over $800,000 for cancer research and support services, making us the highest fundraising team in the organization's history.
+  description2: <a href="https://www.texas4000.org/" target="_blank">Learn more about</a> or <a href="https://www.youtube.com/watch?v=9fzK8ENPhpo" target="_blank">see footage of</a> the journey.
   image: assets/img/t4k.jpg
 
 - name: Longhorn Stream Team
-  description1: I helped form a citizen-science initiative at UT. We paddle rivers and collect water quality data to promote water conservation.
-  description2: We volunteer in the community teaching environmental science to kids and do research in experiential learning. <a href="https://vimeo.com/164478647" target="_blank">See</a> more of what we do.
+  description1: I helped form a <a href="https://www.facebook.com/longhornstreamteam/" target="_blank">citizen-science initiative</a> at UT. We paddle rivers and collect water quality data to promote water conservation.
+  description2: We also volunteer in the community by teaching environmental science to kids, and some of our members are involved in active research. <a href="https://vimeo.com/164478647" target="_blank">See</a> more of what we do.
   image: assets/img/lst.jpg
 
