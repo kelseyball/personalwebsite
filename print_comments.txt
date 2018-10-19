@@ -1,6 +1,4 @@
 import sys
-from collections import deque
-
 
 # Define states in FSM
 class Init:
