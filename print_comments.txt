@@ -1,0 +1,52 @@
+import sys
+from collections import deque
+
+
+# Define states in FSM
+class Init:
+	@staticmethod
+	def transition(char):
+		if char == '/':
+			return OpenPending()
+		return Init()
+
+class OpenPending:
+	@staticmethod
+	def transition(char):
+		if char == '/':
+			sys.stdout.write("//")
+			return PrintSingle()
+		if char == '*':
+			sys.stdout.write("/*")
+			return PrintMulti()
+		return Init()
+
+class PrintSingle:
+	@staticmethod
+	def transition(char):
+		sys.stdout.write(char)
+		if char == '\n':
+			return Init()
+		return PrintSingle()
+
+class PrintMulti:
+	@staticmethod
+	def transition(char):
+		sys.stdout.write(char)
+		if char == '*':
+			return ClosePending()
+		return PrintMulti()
+
+class ClosePending:
+	@staticmethod
+	def transition(char):
+		sys.stdout.write(char)
+		if char == '/':
+			sys.stdout.write('\n')
+			return Init()
+		return PrintMulti()
+
+# Process stdin
+current_state = Init()
+for character in sys.stdin.read():
+	current_state = current_state.transition(character)	
