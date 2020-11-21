@@ -29,24 +29,6 @@ layout: default
 </div>
 <div class="blog">
     <h1>
-      <a href="#" id="2_arrows" class="arrows" onclick="expand_collapse('2');">&#9660</a>
-      Projects:
-    </h1>
-    <div id="2" style="display:none;">
-      <ul>
-          {% for projects in site.data.projects %}
-          <li>
-          <span><h2>{{ projects.name}}</h2><span>
-                  <img src="{{ projects.image}}" style="float:right;margin-bottom:57px;margin-left:9px;"></img>
-                  <ul><li><span><h4>{{ projects.description1}}</h4><span></li></ul>
-                  <ul><li><span><h4>{{ projects.description2}}</h4><span></li></ul>
-          </li>
-          {% endfor %}
-      </ul>
-    </div>
-</div>
-<div class="blog">
-    <h1>
       <a href="#" id="3_arrows" class="arrows" onclick="expand_collapse('3');">&#9660</a>
       Work Experience:</h1>
     <div id="3" style="display:none;">
@@ -104,6 +86,24 @@ layout: default
         </table>
         </li>
     </ul>
+    </div>
+</div>
+<div class="blog">
+    <h1>
+      <a href="#" id="2_arrows" class="arrows" onclick="expand_collapse('2');">&#9660</a>
+      Service:
+    </h1>
+    <div id="2" style="display:none;">
+      <ul>
+          {% for service in site.data.service %}
+          <li>
+          <span><h2>{{ service.name}}</h2><span>
+                  <img src="{{ service.image}}" style="float:right;margin-bottom:57px;margin-left:9px;"></img>
+                  <ul><li><span><h4>{{ service.description1}}</h4><span></li></ul>
+                  <ul><li><span><h4>{{ service.description2}}</h4><span></li></ul>
+          </li>
+          {% endfor %}
+      </ul>
     </div>
 </div>
 <script src="/assets/js/main.js"></script>
