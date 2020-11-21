@@ -1,3 +1,11 @@
+- title: Machine Learning Engineer
+  time: Feb 2019 - Aug 2020
+  description1: One of two engineers responsible for the type-completion service of a customer interaction platform, which received 100+ requests per second.
+  description2: Automated majority of model lifecycle, from dataset creation to model retraining, evaluation, and versioning.
+  description3: A/B tested new models and analyzed test results to understand and communicate impact. Automated the setup and analysis of routine A/B tests (e.g., A/B testing models retrained on new data).
+  description4: Led the research and development for a personalized type-completion model to increase the efficiency of customer service agents.
+  image: assets/img/asapp.png
+
 - title: Software Development Intern
   time: Summer 2015
   company: Qualcomm Inc.
