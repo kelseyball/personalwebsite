@@ -5,17 +5,3 @@
   description3: A/B tested new models and analyzed test results to understand and communicate impact. Automated the setup and analysis of routine A/B tests (e.g., A/B testing models retrained on new data).
   description4: Led the research and development for a personalized type-completion model to increase the efficiency of customer service agents.
   image: assets/img/asapp.png
-
-- title: Software Development Intern
-  time: Summer 2015
-  company: Qualcomm Inc.
-  description1: Built and integrated an internal testing tool to track optimized kernel parameters between builds.
-  description2: I was a top three finalist in the intern IdeaQuest competition with SmartBike, an IoT-connected bicycle.
-  image: assets/img/qualcomm.jpg 
-
-- title: Software Development Intern
-  time: Summer 2014
-  company: Epic Systems
-  description1: Prototyped a web-based media-sharing application for radiologists.
-  image: assets/img/epic.jpg
-
